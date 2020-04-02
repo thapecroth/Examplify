@@ -1,0 +1,37 @@
+{
+  "name": "examplify",
+  "version": "1.0.0",
+  "description": "Examplify mission is make online exam/ testing easy for both exam taker and giver.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thapecroth/Examplify.git"
+  },
+  "keywords": [
+    "education",
+    "eye-tracking"
+  ],
+  "author": "thapecroth, thasarito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thapecroth/Examplify/issues"
+  },
+  "homepage": "https://github.com/thapecroth/Examplify#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4"
+  }
+}
