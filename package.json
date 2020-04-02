@@ -4,7 +4,8 @@
   "description": "Examplify mission is make online exam/ testing easy for both exam taker and giver.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "clean": "rm -rf build/ && rm -rf dist/"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,20 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.4"
+    "@babel/preset-react": "^7.9.4",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,yml,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
