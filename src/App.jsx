@@ -1,11 +1,12 @@
 import React from 'react';
 import Nav from './components/Nav';
+import Tracking from './components/Tracking';
 
 const App = () => {
   return (
     <>
       <Nav />
-      <h1>Hello</h1>
+      <Tracking />
     </>
   );
 };
