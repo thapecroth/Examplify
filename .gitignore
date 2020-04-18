@@ -1,7 +1,9 @@
 node_modules/
 .cache/
 coverage/
-dist/
 *.log
 .DS_Store
 build/
+
+dist/*
+!dist/webgazer.js

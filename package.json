@@ -26,6 +26,7 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-load-script": "0.0.6",
     "styled-components": "^5.0.1"
   },
   "browserslist": [
