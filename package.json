@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/thapecroth/Examplify#readme",
   "dependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
